@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(44, 46, 54);
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0.5rem;
+}
+
+main {
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 10px;
+}
+
+form {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+[type=search] {
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  background:rgb(44, 46, 54);
+  color: white;
+  border: 1px solid rgb(44, 46, 54);
+  outline: none;
+  padding: 6.5px 8px;
+}
+
+.todos {
+  list-style-position: inside;
+}
