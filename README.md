@@ -12,6 +12,7 @@ npx prisma db push
 ```sh
 node index.js
 ```
+Go to localhost:3000
 
 ## Requirements
 - Nodejs and Npm
